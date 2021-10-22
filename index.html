@@ -1,42 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Javascript test</title>
-    </head>
-    <body>
-        <script>
-            // here's some javascript
-            console.log("Hello, World!")
 
-            // javascript.info – Working with variables
-            console.log("--Working with variables--")
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript test</title>
+</head>
 
-            let admin;
-            let name = "John";
+<body>
+    <script>
+        // here's some javascript
+        console.log("Hello, World!");
 
-            admin = name;
+        // javascript.info – Working with variables
+        console.log("--Working with variables--")
 
-            console.log(admin);
+        let admin;
+        let name = "John";
 
-            // javascript.info – Giving the right name
-            console.log("--Giving the right name--");
+        admin = name;
 
-            let ourPlanetName = "earth";
-            let currentUserName = "John";
+        console.log(admin);
 
-            // MDN – It's all numbers to me
-            console.log("--It's all numbers to me--")
+        // javascript.info – Giving the right name
+        console.log("--Giving the right name--");
 
-            let myInt = 5;
-            let myFloat = 6.667;
-            console.log(myInt);
-            console.log(myFloat);
+        let ourPlanetName = "earth";
+        let currentUserName = "John";
 
-            console.log(typeof myInt);
-            console.log(typeof myFloat);
-        </script>
-    </body>
+        // MDN – It's all numbers to me
+        console.log("--It's all numbers to me--");
+
+        let myInt = 5;
+        let myFloat = 6.667;
+        console.log(myInt);
+        console.log(myFloat);
+
+        console.log(typeof myInt);
+        console.log(typeof myFloat);
+
+        // MDN – Useful Number methods
+        console.log("--Useful Number methods--");
+
+        let lotsOfDecimal = 1.766584958675746364;
+        console.log(lotsOfDecimal);
+        let twoDecimalPlaces = lotsOfDecimal.toFixed(2);
+        console.log(twoDecimalPlaces);
+        console.log(typeof twoDecimalPlaces);
+
+        let numberTwoDecimalPlaces = Number(twoDecimalPlaces);
+        console.log(numberTwoDecimalPlaces);
+        console.log(typeof numberTwoDecimalPlaces);
+    </script>
+</body>
+
 </html>
