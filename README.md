@@ -1,0 +1,1 @@
+A simple repository to store quick tests as I begin experimenting with coding in Javascript
