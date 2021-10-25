@@ -53,6 +53,34 @@
             let output = `I like the song "${ song }". I gave it a score of ${ score / highestScore * 100 }%.`;
             console.log(output);
 
+            // javascript.info – Check the range between
+            console.log("--Check the range between--");
+
+            let age = 60;
+
+            if (age >= 14 && age <= 90) {
+                console.log("Age is within range.");
+            } else {
+                console.log ("Age is NOT within range.");
+            }
+
+            // javascript.info – Check the range outside
+            console.log("--Check the range outside--")
+
+            let newAge = 99;
+
+            if (!(newAge >= 14 && newAge <=90)) {
+                console.log("Age is outside range.");
+            } else {
+                console.log("Age is NOT outside range.");
+            }
+
+            if (newAge < 14 || newAge > 90) {
+                console.log("Age is outside range.");
+            } else {
+                console.log("Age is NOT outside range.")
+            }
+
         </script>
     </body>
 </html>
